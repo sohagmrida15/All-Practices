@@ -13,3 +13,7 @@ const shop = {
     product: ['laptop', 'mic', 'monitor']
 }
 console.log(shop);
+const shopJson = JSON.stringify(shop);
+console.log(shopJson);
+const shopObj = JSON.parse(shopJson);
+console.log(shopObj);
